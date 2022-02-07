@@ -22,7 +22,7 @@ class DishDetail extends Component {
             return(
                 <div className="container">
                     <div className="row">
-                        <div key={dishDetail.id} className="col-12 col-md-5 m-1">
+                        <div className="col-12 col-md-5 m-1">
                             <Card>
                                 <CardImg top src={dishDetail.image} alt={dishDetail.name} />
                                 <CardBody>
@@ -31,7 +31,7 @@ class DishDetail extends Component {
                                 </CardBody>
                             </Card>
                         </div>
-                        <div key={dishDetail.id} className="col-12 col-md-5 m-1">
+                        <div className="col-12 col-md-5 m-1">
                             <Card>
                                 <h3>Comment</h3>
                                 {comments}
